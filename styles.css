@@ -1,4 +1,216 @@
-* {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/*html {
+    box-sizing: border-box;
+  }
+  */
+*,
+*::before,
+*::after {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /*box-sizing: inherit;*/
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
+.section1 {
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+nav {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+li {
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.content {
+  display: flex;
+  gap: 40px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.hero-main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: -50px;
+}
+
+.hero-secondary {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 900;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.btn {
+  border: none;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+  gap: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placeholder {
+  border: 4px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.text {
+  width: 180px;
+}
+.sec3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 1080px;
+}
+
+.thor {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.sec4 {
+  display: flex;
+  background-color: #3882f6;
+  border: 0;
+  height: 100px;
+  width: 900px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px 40px;
+  justify-content: space-around;
+}
+
+.action {
+  color: #f9faf8;
+  align-items: center;
+}
+
+.action :first-child {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.action p{
+    margin:0px;
+}
+.button-div {
+    display: flex;
+    align-items: center;
+}
+
+.btn2 {
+  border: 2px solid white;
+  border-color: #f9faf8;
+  border-radius: 10px;
+  height:50px;
+}
+
+.bottom {
+    background-color: #1f2937;
+    color:#f9faf8;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
